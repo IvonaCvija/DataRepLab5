@@ -2,18 +2,25 @@
     <body>
         <h1>Hello from index.html</h1>
 
+        <!-- Displaying a GET method form -->
         <h3>Get Method</h3>
+        <!-- Creating a form with GET method -->
         <form action="/name" method="GET">
             <label>First Name: </label>
+            <!-- input for the first name with a default value Ivona -->
             <input type="text" name="fname" value="Ivona"><br>
 
             <label>Surname: </label>
+            <!-- input for the surname with a default value Cvija -->
             <input type="text" name="lname" value="Cvija"><br>
 
+            <!-- Submit button to send the form data to the "/name" using the GET method -->
             <input type="submit" value="submit"><br>
         </form>
 
+        <!-- Displaying a POST method form -->
         <h3>Post Method</h3>
+        <!-- Creating a form with POST method -->
         <form action="/name" method="POST">
             <label>First Name: </label>
             <input type="text" name="fname" value="Ivona"><br>
@@ -21,6 +28,7 @@
             <label>Surname: </label>
             <input type="text" name="lname" value="Cvija"><br>
 
+            <!-- Submit button to send the form data to the "/name" using the POST method -->
             <input type="submit" value="submit"><br>
         </form>
     </body>
